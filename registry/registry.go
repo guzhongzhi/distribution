@@ -31,6 +31,7 @@ import (
 	"github.com/docker/distribution/registry/listener"
 	"github.com/docker/distribution/uuid"
 	"github.com/docker/distribution/version"
+	"rsc.io/letsencrypt"
 )
 
 // this channel gets notified when process receives signal. It is global to ease unit testing
