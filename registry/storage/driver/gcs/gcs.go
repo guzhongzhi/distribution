@@ -39,8 +39,11 @@ import (
 	"golang.org/x/oauth2/google"
 	"golang.org/x/oauth2/jwt"
 	"google.golang.org/api/googleapi"
-	"google.golang.org/cloud"
-	"google.golang.org/cloud/storage"
+	//"google.golang.org/cloud"
+	//"google.golang.org/cloud/storage"
+	
+        "cloud.google.com/cloud"
+        "cloud.google.com/cloud/storage"
 )
 
 const (
